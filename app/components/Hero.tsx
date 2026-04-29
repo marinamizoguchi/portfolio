@@ -19,7 +19,8 @@ export function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 mb-8 max-w-2xl mx-auto">
-          A creative UI/UX Designer crafting beautiful digital experiences
+          A creative UI/UX Designer & Frontend Web Developer crafting beautiful
+          digital experiences
         </p>
 
         <div className="flex items-center justify-center gap-4">

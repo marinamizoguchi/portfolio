@@ -11,7 +11,6 @@ const defaultNavLinks: NavLink[] = [
   { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
-
 interface NavigationProps {
   logo?: string;
   links?: NavLink[];
