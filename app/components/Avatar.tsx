@@ -1,4 +1,6 @@
 // filepath: app/components/Avatar.tsx
+import Image from "next/image";
+
 interface AvatarProps {
   src?: string;
   alt?: string;
@@ -23,7 +25,13 @@ export function Avatar({
       className={`${sizeClasses[size]} rounded-full bg-zinc-200 dark:bg-zinc-800 overflow-hidden flex items-center justify-center`}
     >
       {src ? (
-        <img src={src} alt={alt} className="w-full h-full object-cover" />
+        <Image
+          width={500}
+          height={500}
+          src={src}
+          alt={alt}
+          className="w-full h-full object-cover"
+        />
       ) : (
         <span>{fallback}</span>
       )}

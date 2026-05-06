@@ -13,7 +13,6 @@ import {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navigation />
       <main>
         <Hero />
         <About />
@@ -22,7 +21,6 @@ export default function Home() {
         <Testimonials />
         <Contact />
       </main>
-      <Footer />
     </div>
   );
 }
